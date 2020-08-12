@@ -90,9 +90,4 @@ router.route('/test')
         res.send({status : 'success'});
     })
 
-    // .get((req,res) => {
-    //     var orderDetails = mockdb.getOrder(req.body);
-        
-    //     res.send({orderDetails : orderDetails});
-    // })
     
